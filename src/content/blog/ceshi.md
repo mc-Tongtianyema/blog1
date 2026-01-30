@@ -3,7 +3,7 @@
 title: "测试"
 description: "测试"
 pubDate: "2026/1/30"
-heroImage: "/blog-placeholder-3.jpg"
+heroImage: "/ceshi.png"
 ---
 
 # 这是1级标题
