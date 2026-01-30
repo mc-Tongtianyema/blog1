@@ -3,21 +3,55 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import '../styles/home.css';
 ---
 
 <!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>你好!我是通天野马</h1>
-			<p>
-				欢迎来到我的博客，我喜欢在这里发布一些文章，分享一些好用的工具等，本博客部署在Github，使用的<a href="https://astro.build/">Astro默认模版</a>。
-			</p>
-		</main>
-		<Footer />
-	</body>
+<html lang="zh-CN">
+    <head>
+        <BaseHead 
+            title={SITE_TITLE} 
+            description={SITE_DESCRIPTION}
+        />
+    </head>
+    <body>
+        <Header />
+        
+        <main class="container">
+            <!-- 英雄区域 -->
+            <section class="hero">
+                <h1 class="gradient-text">你好！我是通天野马</h1>
+                <p class="lead">
+                    欢迎来到我的个人博客空间。这里是我分享技术文章、实用工具和思考感悟的地方。
+                    本博客基于<a href="https://astro.build/" class="highlight-link">Astro框架</a>构建，
+                    采用其默认模板，并部署在GitHub Pages上。
+                </p>
+            </section>
+            
+            <!-- 最新文章预览 -->
+            <section class="recent-posts">
+                <h2>✨ 最新文章</h2>
+                <p>文章正在整理中，敬请期待...</p>
+                <a href="/blog" class="cta-button">查看所有文章 →</a>
+            </section>
+        </main>
+        
+        <Footer />
+        
+        <script>
+            // 添加简单的交互效果
+            document.addEventListener('DOMContentLoaded', () => {
+                // 卡片悬停效果
+                const cards = document.querySelectorAll('.feature-card');
+                cards.forEach(card => {
+                    card.addEventListener('mouseenter', () => {
+                        card.style.boxShadow = '0 8px 25px rgba(0, 0, 0, 0.15)';
+                    });
+                    card.addEventListener('mouseleave', () => {
+                        card.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
+                    });
+                });
+            });
+        </script>
+    </body>
 </html>
