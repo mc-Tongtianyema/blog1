@@ -3,55 +3,27 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import '../styles/home.css';
 ---
 
 <!doctype html>
-<html lang="zh-CN">
-    <head>
-        <BaseHead 
-            title={SITE_TITLE} 
-            description={SITE_DESCRIPTION}
-        />
-    </head>
-    <body>
-        <Header />
-        
-        <main class="container">
-            <!-- 英雄区域 -->
-            <section class="hero">
-                <h1 class="gradient-text">你好！我是通天野马</h1>
-                <p class="lead">
-                    欢迎来到我的个人博客空间。这里是我分享技术文章、实用工具和思考感悟的地方。
-                    本博客基于<a href="https://astro.build/" class="highlight-link">Astro框架</a>构建，
-                    采用其默认模板，并部署在GitHub Pages上。
-                </p>
-            </section>
-            
-            <!-- 最新文章预览 -->
-            <section class="recent-posts">
-                <h2>✨ 最新文章</h2>
-                <p>文章正在整理中，敬请期待...</p>
-                <a href="/blog" class="cta-button">查看所有文章 →</a>
-            </section>
-        </main>
-        
-        <Footer />
-        
-        <script>
-            // 添加简单的交互效果
-            document.addEventListener('DOMContentLoaded', () => {
-                // 卡片悬停效果
-                const cards = document.querySelectorAll('.feature-card');
-                cards.forEach(card => {
-                    card.addEventListener('mouseenter', () => {
-                        card.style.boxShadow = '0 8px 25px rgba(0, 0, 0, 0.15)';
-                    });
-                    card.addEventListener('mouseleave', () => {
-                        card.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
-                    });
-                });
-            });
-        </script>
-    </body>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>你好!我是通天野马</h1>
+            <p>
+                欢迎来到我的个人博客！这里是我精心打造的数字小天地，我热衷于在这里分享各种有趣的内容，从实用的工具推荐到生活点滴感悟。每当发现好用的软件、网站或技巧，我都会第一时间整理成文，与大家共同探索科技带来的便利与乐趣。
+            </p>
+			<p>
+				目前，我的博客已经稳定部署在GitHub Pages上，采用<a href="https://astro.build/">Astro</a>框架的默认模板搭建而成。这个轻量级且高效的静态站点生成器，让我能够专注于内容创作，而无需过多操心技术细节。Astro简洁的架构和出色的性能，为读者提供了流畅的浏览体验。
+			</p>
+            <p>
+                如果你也喜欢探索新事物、发现好工具，或者只是想找个安静角落阅读一些轻松的文字，不妨常来逛逛。期待在这里与你相遇，共同开启一段充满发现的旅程！
+            </p>
+		</main>
+		<Footer />
+	</body>
 </html>
