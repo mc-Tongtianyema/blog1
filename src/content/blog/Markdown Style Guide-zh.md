@@ -57,7 +57,7 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 
 #### 输出
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  我也不会
+> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  我也不会</br>
 > **注意** 你可以在块引号中使用 _Markdown_ 语法.
 
 ### 有署名的引用
@@ -78,27 +78,26 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 
 [^1]: 以上引述摘自 Rob Pike 于 2015 年 11 月 18 日 Gopherfest 期间的 [演讲](https://www.youtube.com/watch?v=PAAkCSZUG1c) 。
 
-## Tables
+## 表格
 
-### Syntax
+### 语法
 
 ```markdown
-| Italics   | Bold     | Code   |
+| 斜体   | 加粗     | 代码   |
 | --------- | -------- | ------ |
-| _italics_ | **bold** | `code` |
+| _斜体_ | **加粗** | `代码` |
 ```
 
-### Output
+### 输出
 
-| Italics   | Bold     | Code   |
+| 斜体   | 加粗     | 代码   |
 | --------- | -------- | ------ |
-| _italics_ | **bold** | `code` |
+| _斜体_ | **加粗** | `代码` |
 
-## Code Blocks
+## 代码块
 
-### Syntax
-
-we can use 3 backticks ``` in new line and write snippet and close with 3 backticks on new line and to highlight language specific syntax, write one word of language name after first 3 backticks, for eg. html, javascript, css, markdown, typescript, txt, bash
+### 语法
+我们可以在新行中使用 3 个` ``` `,并在新行写 3 个回溯引号写 Snippet 和 Close，为了突出语言特定的句法，在前 3 个回溯引号后写一个语言名称的单词，例如：HTML、JAVASCRIPT、CSS、MARKDOWN、TYPESCRIPT、TXT、BASH。
 
 ````markdown
 ```html
@@ -106,10 +105,10 @@ we can use 3 backticks ``` in new line and write snippet and close with 3 backti
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>Example HTML5 Document</title>
+		<title>这是html代码演示</title>
 	</head>
 	<body>
-		<p>Test</p>
+		<p>测试</p>
 	</body>
 </html>
 ```
@@ -122,10 +121,10 @@ we can use 3 backticks ``` in new line and write snippet and close with 3 backti
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>Example HTML5 Document</title>
+		<title>这是html代码演示</title>
 	</head>
 	<body>
-		<p>Test</p>
+		<p>测试</p>
 	</body>
 </html>
 ```
