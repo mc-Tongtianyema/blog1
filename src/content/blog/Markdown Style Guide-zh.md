@@ -28,53 +28,55 @@ heroImage: "/blog-placeholder-1.jpg"
 Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</br>
-你确定这玩意我会翻译????
+纳尼？你确定这玩意我会翻译????
 
 ## 图片
 
 ### 语法
 
 ```markdown
-![Alt text](./full/or/relative/path/of/image)
+![Alt text](你的图片地址)
 ```
 
 ### 结果
 
 ![blog placeholder](/blog-placeholder-about.jpg)
 
-## Blockquotes
+## 引用块
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+块引元素表示引用自其他来源的内容，可选择性地引用必须在`页脚`或`引用`元素内，也可以选择内嵌更改，如注释和缩写。
 
-### Blockquote without attribution
+### 无署名的引用
 
-#### Syntax
-
-```markdown
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
-> **Note** that you can use _Markdown syntax_ within a blockquote.
-```
-
-#### Output
-
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
-> **Note** that you can use _Markdown syntax_ within a blockquote.
-
-### Blockquote with attribution
-
-#### Syntax
+#### 语法
 
 ```markdown
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
+> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  我也不会
+> **注意** 你可以在块引号中使用 _Markdown_ 语法.
 ```
 
-#### Output
+#### 输出
 
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
+> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  我也不会
+> **注意** 你可以在块引号中使用 _Markdown_ 语法.
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+### 有署名的引用
+
+#### 语法
+
+```markdown
+> 不要通过分享记忆来沟通，要通过交流来分享记忆。<br>
+> — <cite>罗布·派克[^1]</cite>
+
+[^1]: 意思/出处
+```
+
+#### 输出
+
+> 不要通过分享记忆来沟通，要通过交流来分享记忆。<br>
+> — <cite>罗布·派克[^1]</cite>
+
+[^1]: 以上引述摘自 Rob Pike 于 2015 年 11 月 18 日 Gopherfest 期间的 [演讲](https://www.youtube.com/watch?v=PAAkCSZUG1c) 。
 
 ## Tables
 
