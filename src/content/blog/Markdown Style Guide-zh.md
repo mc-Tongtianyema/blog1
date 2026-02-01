@@ -129,88 +129,87 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 </html>
 ```
 
-## List Types
+## 列表
 
-### Ordered List
+### 有序列表
 
-#### Syntax
+#### 语法
 
 ```markdown
-1. First item
-2. Second item
-3. Third item
+1. 第一行
+2. 第二行
+3. 第三行
 ```
 
 #### Output
 
-1. First item
-2. Second item
-3. Third item
+1. 第一行
+2. 第二行
+3. 第三行
 
-### Unordered List
+### 无序列表
 
-#### Syntax
+#### 语法
 
 ```markdown
-- List item
-- Another item
-- And another item
+- 列表项
+- 又一个项
+- 另一个项
 ```
 
-#### Output
+#### 输出
 
-- List item
-- Another item
-- And another item
+- 列表项
+- 又一个项
+- 另一个项
 
-### Nested list
+### 无序子列表项
 
-#### Syntax
-
+#### 语法
 ```markdown
-- Fruit
-  - Apple
-  - Orange
-  - Banana
-- Dairy
-  - Milk
-  - Cheese
+- 能吃的
+  - 苹果
+  - 香蕉
+  - 橘子
+- 不能吃的
+  - 石头
+  - 木头
 ```
 
-#### Output
+#### 输出
 
-- Fruit
-  - Apple
-  - Orange
-  - Banana
-- Dairy
-  - Milk
-  - Cheese
+- 能吃的
+  - 苹果
+  - 香蕉
+  - 橘子
+- 不能吃的
+  - 石头
+  - 木头
 
-## Other Elements — abbr, sub, sup, kbd, mark
+## 其他元素 — 缩写、sub、sup、kbd、mark
 
-### Syntax
+### 语法
 
 ```markdown
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+<abbr title="Graphics Interchange Format">GIF</abbr>是一种位图图像格式。
 
 H<sub>2</sub>O
 
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
-Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
+按 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Esc</kbd> 键打开任务管理器。
 
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+大多数<mark>蝾螈</mark>是夜行性，捕食昆虫、蠕虫和其他小型生物。
 ```
 
-### Output
+### 输出
 
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+<abbr title="Graphics Interchange Format">GIF</abbr>是一种位图图像格式。
 
 H<sub>2</sub>O
 
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
-Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
+按 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Esc</kbd> 键打开任务管理器。
 
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+大多数<mark>蝾螈</mark>是夜行性，捕食昆虫、蠕虫和其他小型生物。
