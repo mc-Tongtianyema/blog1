@@ -1,3 +1,10 @@
+---
+title: "国内如何使用Google"
+description: "国内如何使用Google"
+pubDate: "Feb 1 2026"
+heroImage: "/fengmian/awd.webp"
+---
+
 # 如何注册一个google账户
 众所周知，google在国内打开只会是(不开科学):</br>
 ![图片](/cngoogle/awgaWegjhn.png)
